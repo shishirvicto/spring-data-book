@@ -4,16 +4,15 @@
 
 	<groupId>com.oreilly.springdata</groupId>
 	<artifactId>spring-data-book-hadoop-wordcount</artifactId>
-	<version>1.0.0.BUILD-SNAPSHOT</version>	
+	<version>1.0.0.BUILD-SNAPSHOT</version>
 	<name>Spring Data Book - Hadoop Wordcount</name>
 
 	<dependencies>
 
 		<dependency>
-			<groupId>org.apache.hadoop</groupId>
-			<artifactId>hadoop-core</artifactId>
-			<version>1.0.1</version>
-			<scope>compile</scope>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-hadoop</artifactId>
+			<version>1.0.2.RELEASE-hadoop22</version>
 		</dependency>
 
 	</dependencies>
